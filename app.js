@@ -6,7 +6,7 @@ app.engine("handlebars", handlebars({defaultLayout: "main"}))
 app.set("view engine", "handlebars")
 
 app.get("/", function(req, res){
-    res.render("primeira_pagina")
+    res.render("cadastrar")
 })
 
 app.get("/listar", function(req,res){
